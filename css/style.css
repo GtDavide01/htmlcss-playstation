@@ -70,6 +70,24 @@ body{
     color: #0072ce;
     font-weight: 500;
 }
+.psfive .ms_btn.btn.btn-secondary{
+    background-color: #2d64e6;
+    line-height: 30px;
+    width: 200px;
+}
+.psfive .psfiveimg img{
+    width: 100%;
+}
+.psfivecarddetails img{
+    width: 100%;
+}
+.psfivecarddetails.ms_active{
+    border-bottom: 2px solid #127cd1;
+}
+.psfivecarddetails.ms_cardopacity{
+    
+}
+
 
 
 
