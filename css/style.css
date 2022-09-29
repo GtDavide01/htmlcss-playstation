@@ -1,0 +1,32 @@
+/* RESET */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* COMMON */
+
+/* HEADER */
+.headersup{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.headersup img{
+    width: 100px;
+}
+.headersot a{
+    font-weight: 500;
+}
+.nav-item i{
+    font-size: .7rem;
+    color: #9b9b9b;
+}
+.ms_btn.btn.btn-secondary{
+    background-color: #363636;
+    border: 0px;
+    border-radius: 2rem;
+}
+#search{
+    color: black;
+    font-size: 1.5rem;
+}
