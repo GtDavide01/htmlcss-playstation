@@ -4,7 +4,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /* COMMON */
-
+.titlepara{
+    font-size: 3rem;
+}
 /* HEADER */
 .headersup{
     width: 100%;
@@ -30,3 +32,32 @@ body{
     color: black;
     font-size: 1.5rem;
 }
+
+/* MAIN */
+/* SECTION jumbotron */
+.jumbotron{
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    position: relative;
+}
+.jumbotron img{
+    width: 60%;
+}
+.jumbotron .ms_btn.btn.btn-secondary{
+    background-color: #cd3d0f;
+    line-height: 30px;
+    width: 150px;
+}
+.jumbotron .cardreturnal{
+    position: absolute;
+    bottom: 50px;
+}
+/* SECTION cardjumbotron */
+.cardgame img{
+    width: 100%;
+}
+
+
