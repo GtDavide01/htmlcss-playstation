@@ -5,6 +5,12 @@ body{
 }
 /* COMMON */
 
+.cardgame img , .psfive .psfiveimg img ,
+.psfivecarddetails img ,.psfivecarddetailsopacity img ,
+.psfour img , .nuoveuscite .gamenew img , .psplus img ,
+.imgsconti img , .psnow img{
+    width: 100%;
+}
 .titlepara{
     font-size: 3rem;
     line-height: 50px;
@@ -13,6 +19,7 @@ body{
     font-size: 1.3rem;
     color: grey;
     font-weight: 500;
+    line-height: 30px;
 }
 /* HEADER */
 .headersup{
@@ -61,10 +68,6 @@ body{
     position: absolute;
     bottom: 50px;
 }
-/* SECTION cardjumbotron */
-.cardgame img{
-    width: 100%;
-}
 /* SECTION psfive */
 .psfive a{
     text-decoration: none;
@@ -76,11 +79,8 @@ body{
     line-height: 30px;
     width: 200px;
 }
-.psfive .psfiveimg img{
-    width: 100%;
-}
-.psfivecarddetails img{
-    width: 100%;
+.psfivecarddetailsopacity img{
+    opacity: .75;
 }
 .psfivecarddetails.ms_active{
     border-bottom: 2px solid #127cd1;
@@ -100,13 +100,8 @@ body{
 .nuoveuscite{
     background-color: #1f1f1f;
 }
-.nuoveuscite .gamenew img{
-    width: 100%;
-}
 /* SECTION psfour */
-.psfour img{
-    width: 100%;
-}
+
 .psfour .ms_btn.btn.btn-secondary{
     background-color: #2d64e6;
     line-height: 30px;
@@ -119,19 +114,14 @@ body{
 #plus{
     width: 60%;
 }
-.psplus img{
-    width: 100%;
-}
+
 .psplus .ms_btn.btn.btn-secondary{
     background-color: #d9dadc;
     line-height: 30px;
     width: 220px;
     color:#2d64e6; ;
 }
-/* SECTION sconti */
-.imgsconti img{
-    width: 100%;
-}
+
 /* SECTION psnow */
 .psnow{
     background-color: #161c3b;
@@ -148,10 +138,37 @@ body{
     width: 220px;
     color: black;
 }
+/* SECTION socialmedia */
+.social img{
+    width: 250px;
+}
+.wrappersocial{
+    width: 80%;
+    margin: 0 auto;
+}
 
-.box{
-    height: 100px;
-    width: 200px;
-    background-color: blue;
-    border: 1px solid black ;
+/* FOOTER */
+footer img{
+    width: 150px;
+}
+footer #playlogo{
+    width: 20%;
+}
+footer{
+    background-color: #00439c;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+/* HOVER */
+.psfivecarddetailsopacity img:hover{
+    opacity: 10;
+    border-bottom: 2px solid #127cd1;
+}
+.cardgame img:hover , button:hover ,
+ .psfivecarddetails img:hover,
+ .psfivecarddetailsopacity img:hover{
+    transition: 2s;
+    transform: scale(1.2);
 }
