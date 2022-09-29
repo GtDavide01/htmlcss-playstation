@@ -103,6 +103,34 @@ body{
 .nuoveuscite .gamenew img{
     width: 100%;
 }
+/* SECTION psfour */
+.psfour img{
+    width: 100%;
+}
+.psfour .ms_btn.btn.btn-secondary{
+    background-color: #2d64e6;
+    line-height: 30px;
+    width: 130px;
+}
+/* SECTION psplus */
+.psplus{
+    background-color: #bebcbb;
+}
+#plus{
+    width: 60%;
+}
+.psplus img{
+    width: 100%;
+}
+.psplus .ms_btn.btn.btn-secondary{
+    background-color: #d9dadc;
+    line-height: 30px;
+    width: 220px;
+    color:#2d64e6; ;
+}
+
+
+
 
 .box{
     height: 100px;
