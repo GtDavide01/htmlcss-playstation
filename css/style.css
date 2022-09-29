@@ -4,8 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /* COMMON */
+
 .titlepara{
     font-size: 3rem;
+    line-height: 50px;
 }
 .paragrey{
     font-size: 1.3rem;
@@ -37,7 +39,6 @@ body{
     color: black;
     font-size: 1.5rem;
 }
-
 /* MAIN */
 /* SECTION jumbotron */
 .jumbotron{
@@ -51,7 +52,7 @@ body{
 .jumbotron img{
     width: 60%;
 }
-.jumbotron .ms_btn.btn.btn-secondary{
+.jumbotron .ms_btn.btn.btn-secondary , .takestwo .ms_btn.btn.btn-secondary{
     background-color: #cd3d0f;
     line-height: 30px;
     width: 150px;
@@ -84,14 +85,24 @@ body{
 .psfivecarddetails.ms_active{
     border-bottom: 2px solid #127cd1;
 }
-.psfivecarddetails.ms_cardopacity{
-    
+/* SECTION takestwo */
+.takestwo{
+    height: 650px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: top;
 }
-
-
-
-
-
+.takestwo img{
+    width: 50%;
+}
+/* SECTION nuove uscite */
+.nuoveuscite{
+    background-color: #1f1f1f;
+}
+.nuoveuscite .gamenew img{
+    width: 100%;
+}
 
 .box{
     height: 100px;
