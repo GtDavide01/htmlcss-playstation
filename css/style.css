@@ -64,7 +64,7 @@ header{
 /* MAIN */
 /* SECTION jumbotron */
 .jumbotron{
-    height: 600px;
+    min-height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -103,7 +103,7 @@ header{
 }
 /* SECTION takestwo */
 .takestwo{
-    height: 650px;
+    min-height: 650px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -155,6 +155,11 @@ header{
     color: black;
 }
 /* SECTION socialmedia */
+.wrappersocial{
+    margin: 0 auto ;
+    width: 1320px;
+    padding-bottom: 6rem;
+}
 .social img{
     width: 250px;
 }
@@ -185,6 +190,16 @@ footer a{
 .cardgame img:hover , button:hover ,
  .psfivecarddetails img:hover,
  .psfivecarddetailsopacity img:hover{
-    transition: 2s;
+    transition: .5s;
     transform: scale(1.2);
+}
+.cardgame img:hover{
+    border: 4px solid #0a77d0;
+}
+
+/* MEDIAQUERY */
+@media screen and  ( min-width : 767px){
+    .wrappersocial{
+        width: 50%;
+    }
 }
