@@ -95,7 +95,7 @@ header{
     line-height: 30px;
     width: 200px;
 }
-.psfivecarddetailsopacity img{
+.psfivecarddetailsopacity{
     opacity: .75;
 }
 .psfivecarddetails.ms_active{
@@ -183,16 +183,16 @@ footer a{
     color: white;
 }
 /* HOVER */
-.psfivecarddetailsopacity img:hover{
+.psfivecarddetailsopacity:hover{
     opacity: 10;
     border-bottom: 2px solid #127cd1;
 }
 .cardgame img:hover , button:hover ,
- .psfivecarddetails img:hover,
- .psfivecarddetailsopacity img:hover{
+ #psfiveactive:hover ,.psfivecarddetailsopacity:hover{
     transition: .5s;
     transform: scale(1.2);
 }
+
 .cardgame img:hover{
     border: 4px solid #0a77d0;
 }
