@@ -210,7 +210,7 @@ footer a{
 .cardgame img:hover{
     border: 4px solid #0a77d0;
 }
-.headersot ul:hover header.dropdownmenu{
+.headersot ul:hover .headersot.dropdownmenu{
    display: block;
 }
 
